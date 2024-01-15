@@ -24,7 +24,6 @@ if (empty($_GET['name']) && empty($_GET['email']) && empty($_GET['age'])) {
 ?>
 
 
-
 <form action="../snack-2/index.php" method="get">
     <div>
         <label for="name">Insert name</label>

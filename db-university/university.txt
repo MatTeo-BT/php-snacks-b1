@@ -1,0 +1,4 @@
+Selezionare tutti gli studenti il cui cognome finisce per "o"
+SELECT *
+FROM students
+WHERE surname LIKE `%O`

@@ -19,6 +19,14 @@ class Pokemon
         $this->evoluzione = $_evoluzione;
         $this->mosse = $_mosse;
     }
+    public function info() {
+        echo "Nome: {$this->nome};
+        echo "Tipo: {$this->tipo};
+        echo "Livello: {$this->livello};
+        echo "Evoluzione: {$this->evoluzione};
+        echo "Mosse: {$this->mosse};
+    }
+
 }
 
 ?>
